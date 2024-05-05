@@ -1,0 +1,13 @@
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    white-space: nowrap;
+}
+
+.card {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+}
